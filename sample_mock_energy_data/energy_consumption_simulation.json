@@ -1,0 +1,482 @@
+[
+    {
+        "time": "2025-01-10T21:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 175.3
+    },
+    {
+        "time": "2025-01-10T22:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-10T23:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T00:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T01:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T02:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T03:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T04:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T05:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T06:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T07:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T08:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T09:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T10:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T11:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T12:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T13:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T14:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T15:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T16:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T17:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 155.3
+    },
+    {
+        "time": "2025-01-11T18:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 175.3
+    },
+    {
+        "time": "2025-01-11T19:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 175.3
+    },
+    {
+        "time": "2025-01-11T20:32:54.168069",
+        "location": "Boston",
+        "energy_consumption_kWh": 175.3
+    },
+    {
+        "time": "2025-01-10T21:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 120.0
+    },
+    {
+        "time": "2025-01-10T22:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-10T23:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T00:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T01:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T02:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T03:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T04:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T05:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T06:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T07:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T08:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T09:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T10:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T11:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T12:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T13:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T14:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T15:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T16:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T17:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T18:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 120.0
+    },
+    {
+        "time": "2025-01-11T19:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 120.0
+    },
+    {
+        "time": "2025-01-11T20:32:54.168069",
+        "location": "New York",
+        "energy_consumption_kWh": 120.0
+    },
+    {
+        "time": "2025-01-10T21:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 120.0
+    },
+    {
+        "time": "2025-01-10T22:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-10T23:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T00:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T01:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T02:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T03:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T04:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T05:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T06:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T07:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T08:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T09:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T10:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T11:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T12:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T13:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T14:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T15:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T16:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T17:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 100
+    },
+    {
+        "time": "2025-01-11T18:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 120.0
+    },
+    {
+        "time": "2025-01-11T19:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 120.0
+    },
+    {
+        "time": "2025-01-11T20:32:54.168069",
+        "location": "San Francisco",
+        "energy_consumption_kWh": 120.0
+    },
+    {
+        "time": "2025-01-10T21:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 150.0
+    },
+    {
+        "time": "2025-01-10T22:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-10T23:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T00:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T01:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T02:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T03:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T04:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T05:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T06:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T07:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T08:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T09:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T10:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T11:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T12:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T13:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T14:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T15:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T16:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T17:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 130.0
+    },
+    {
+        "time": "2025-01-11T18:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 150.0
+    },
+    {
+        "time": "2025-01-11T19:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 150.0
+    },
+    {
+        "time": "2025-01-11T20:32:54.168069",
+        "location": "Chicago",
+        "energy_consumption_kWh": 150.0
+    }
+]
