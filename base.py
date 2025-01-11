@@ -1,5 +1,5 @@
 """
-A base script which stores the information of the locations, which will be consumed further.
+A base script which stores the information of the locations, which will be consumed further..
 """
 
 class WeatherLocationBase:
