@@ -1,6 +1,8 @@
 """
 A base script which stores the information of the locations, which will be consumed further..
 """
+import csv
+from typing import List
 
 class WeatherLocationBase:
     def __init__(self):
@@ -71,3 +73,42 @@ class WeatherLocationBase:
             return location_data["location"]
         else:
             return f"Location {location_name} not found."
+        
+
+    def save_to_csvf(self, energy_data: List[str], output_file: str, output_fields: List[str]):
+        """
+        Save the energy production data to a CSV file. 
+        NOTE : Using csv writer rather than pandas because the datasets are small-to-medium
+        so, it is efficient to use csv writer.
+
+        Args:
+            energy_data (list): List of dictionaries containing energy production data.
+            output_file (str): Path to the CSV file where data will be saved.
+            output_fields (list): List of field names (keys) to include in the CSV.
+        """
+        if not energy_data:
+            print("No data to save.")
+            return
+        
+        # Validate that all required fields are present in the data
+        missing_fields = [field for field in output_fields if field not in energy_data[0]]
+        if missing_fields:
+            print(f"Warning: Missing fields in data for {', '.join(missing_fields)}")
+            return
+        
+        try:
+            # Open the CSV file in write mode
+            with open(output_file, mode="w", newline="") as file:
+                writer = csv.DictWriter(file, fieldnames=output_fields)
+                
+                # Write the header (column names)
+                writer.writeheader()
+                
+                # Write all rows of data
+                for row in energy_data:
+                    writer.writerow(row)
+            
+            print(f"Data successfully saved to {output_file}")
+
+        except Exception as e:
+            print(f"Error while saving to CSV: {e}")

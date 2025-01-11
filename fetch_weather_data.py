@@ -5,34 +5,53 @@ to simulate renewable energy production (e.g., for wind turbines or solar panels
 
 import requests
 import json
+from base import WeatherLocationBase
 
-# API endpoint and your API key
-url = "https://api.tomorrow.io/v4/weather/forecast"
-api_key = "XPr2YBXzq3HoK5loGUvsOAiKuSFHJzsh"  # Replace with your actual API key
 
-# List of locations (latitude, longitude)
-locations = [
-    {"name": "Boston", "lat": 42.3478, "lon": -71.0466},
-    {"name": "New York", "lat": 40.7128, "lon": -74.0060},
-    {"name": "San Francisco", "lat": 37.7749, "lon": -122.4194},
-    {"name": "Chicago", "lat": 41.8781, "lon": -87.6298}
-]
+class WeatherFetcher(WeatherLocationBase):
+    def __init__(self):
+        super().__init__()  # Initialize Base Class
+        self.api_key = "XPr2YBXzq3HoK5loGUvsOAiKuSFHJzsh"  # Replace with your actual API key
+        self.url = "https://api.tomorrow.io/v4/weather/forecast"
 
-# Fetch weather data for each location
-weather_data = {}
-for location in locations:
-    params = {
-        "location": f"{location['lat']},{location['lon']}",
-        "apikey": api_key
-    }
-    response = requests.get(url, params=params)
-    if response.status_code == 200:
-        weather_data[location["name"]] = response.json()
-    else:
-        print(f"Failed to fetch data for {location['name']}: {response.status_code}")
+    def fetch_weather_data(self):
+        # List of locations (latitude, longitude) defined in the base class
+        locations = self.locations_data.keys()
 
-# Save data to a file
-# with open("weather_forecast_multiple_locations.json", "w") as file:
-#     json.dump(weather_data, file, indent=4)
+        # Initialize dictionary to store weather data for each location
+        weather_data = {}
 
-print("Weather data fetched for multiple locations!")
+        for location in locations:
+            # Get location coordinates from the base class
+            latitude = self.locations_data[location]["location"]["latitude"]
+            longitude = self.locations_data[location]["location"]["longitude"]
+
+            params = {
+                "location": f"{latitude},{longitude}",
+                "apikey": self.api_key
+            }
+
+            # Make the API request
+            response = requests.get(self.url, params=params)
+            if response.status_code == 200:
+                # Store the weather data in the dictionary for the location
+                weather_data[location] = response.json()
+            else:
+                print(f"Failed to fetch data for {location}: {response.status_code}")
+
+        return weather_data
+
+
+# # Usage example
+# if __name__ == "__main__":
+#     # Instantiate the WeatherFetcher class
+#     weather_fetcher = WeatherFetcher()
+
+#     # Fetch weather data for all locations
+#     fetched_weather_data = weather_fetcher.fetch_weather_data()
+#     import json
+#     with open("realtime-output/weather_forecast_multiple_locations.json", "w") as file:
+#         json.dump(fetched_weather_data, file, indent=4)
+
+#     # Output the fetched data
+#     print(json.dumps(fetched_weather_data, indent=4))

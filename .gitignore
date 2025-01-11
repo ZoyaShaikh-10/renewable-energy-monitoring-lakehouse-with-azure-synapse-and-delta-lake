@@ -1,0 +1,4 @@
+batch-output/
+realtime-output/
+__pycache__/
+weather_forecast_multiple_locations.json
