@@ -10,13 +10,13 @@ The goal of this project is to build a modern lakehouse architecture to process,
 
 **Data Sources:** 
 
-
 -   APIs (e.g., energy consumption, production data)
 -   CSV files or databases containing historical energy data.
 **Data Ingestion:**
 
 -   Azure Event Hub: Ingests real-time energy data from multiple sources.
 -   Azure Blob Storage / ADLS Gen2: Stores batch data before processing.
+  
 **Data Storage:**
 
 -   Azure Data Lake Storage (ADLS): Raw and processed data stored in a scalable, secure, and cost-effective manner.
