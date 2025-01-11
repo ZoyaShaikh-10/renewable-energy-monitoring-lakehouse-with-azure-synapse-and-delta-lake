@@ -21,6 +21,7 @@ The goal of this project is to build a modern lakehouse architecture to process,
 
 -   Azure Data Lake Storage (ADLS): Raw and processed data stored in a scalable, secure, and cost-effective manner.
 -   Delta Lake: Ensures data reliability and versioning for querying and analytics.
+  
 **Data Processing & Analytics:**
 
 -   Azure Synapse Analytics: Queries and performs large-scale transformations on data.
