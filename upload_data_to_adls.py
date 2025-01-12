@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
     # Define locations and keyword
     locations = ["Boston", "New York", "San Francisco", "Chicago"]
-    keyword = "real-time"  # Change to "real-time" for real-time data uploads
+    keyword = "batch"  # Change to "real-time" for real-time data uploads
 
     # Upload data based on the keyword
     uploader.upload_based_on_keyword(locations, keyword)
