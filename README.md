@@ -36,7 +36,7 @@ The goal of this project is to build a modern lakehouse architecture to process,
 Data scientists, analysts, and decision-makers can access insights via BI tools or dashboards.
 
 
-  ![plot](./energy-pipeline-images/Blank diagram.png)
+![plot](./energy-pipeline-images/Overview.png)
 
 
 ## Project Workflow
