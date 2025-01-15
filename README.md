@@ -36,7 +36,7 @@ The goal of this project is to build a modern lakehouse architecture to process,
 Data scientists, analysts, and decision-makers can access insights via BI tools or dashboards.
 
 
-![plot](./energy-pipeline-images/Blank diagrame.png)
+![plot](./energy-pipeline-images/Blank diagram.png)
 
 
 ## Project Workflow
@@ -44,23 +44,26 @@ Data scientists, analysts, and decision-makers can access insights via BI tools 
 - **Data Sources → ADLS (Raw Zone) :**
     -   Raw data from real-time and batch is ingested into Azure Data Lake Storage Gen2 in the Raw Zone.
 
-    ![plot](./energy-pipeline-images/raw_data_to_adls.png)
+  ![plot](./energy-pipeline-images/raw_data_to_adls.png)
 
 
 -   **Delta Lake (Raw Data Storage):**
     -   Raw data is stored in Delta Lake for reliability, versioning, and easy accessibility.
-    ![plot](./energy-pipeline-images/upload-raw-data-to-delta-lake.png)
-    ![plot](./energy-pipeline-images/raw-data-to-delta.png)
+      
+  ![plot](./energy-pipeline-images/upload-raw-data-to-delta-lake.png)
+  ![plot](./energy-pipeline-images/raw-data-to-delta.png)
 
 -   **Processing (Databricks) → Delta Lake (Processed Zone):**
 
     -   Data is cleaned, transformed, and aggregated in Azure Databricks. Processed data is stored back into Delta Lake in the Processed Zone with optimized partitioning for analytics.
+      
     ![plot](./energy-pipeline-images/upload-processed-data-to-delta-lake.png)
     ![plot](./energy-pipeline-images/processed-data-to-delta-lake.png)
 
 - **Analytics (Synapse Analytics):**
 
     -   Azure Synapse Analytics connects to the Processed Zone of Delta Lake, enabling SQL-based querying, advanced analytics, and data preparation for reporting.
+      
     ![plot](./energy-pipeline-images/loading-data-into-synapse.png)
     ![plot](./energy-pipeline-images/sample-visual-in-synapse.png)
 
